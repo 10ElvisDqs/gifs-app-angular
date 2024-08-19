@@ -1,0 +1,13 @@
+<div class="p-6 space-y-4">
+  <div class="w-full bg-slate-300 p-4 rounded-lg shadow-2xl">
+    <!-- Busqueda -->
+    <gifs-search-box></gifs-search-box>
+  </div>
+
+  <div class="flex items-center">
+    <!-- Listado de Gifs -->
+    <gifs-card-list
+     [gifs]="gifs"
+    ></gifs-card-list>
+  </div>
+</div>
